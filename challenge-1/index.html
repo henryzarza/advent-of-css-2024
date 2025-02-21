@@ -5,42 +5,262 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Challenge 1 | Advent of CSS 2024</title>
-  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet"> -->
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-  <main class="container">
+  <main class="main">
+    <!-- when there're more than 5 photos -->
     <div class="grid">
       <figure class="grid__item">
         <img
-          src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?q=80&w=3538&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          alt="two brown and white dogs running dirt road during daytime, https://unsplash.com/@alvannee"
+          src="https://picsum.photos/id/66/600/300"
+          alt="green grass land taken at daytime, https://unsplash.com/@nicholasswanson"
         />
       </figure>
       <figure class="grid__item">
         <img
-          src="https://images.unsplash.com/photo-1444212477490-ca407925329e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          alt="three brown puppies, https://unsplash.com/@anoirchafik"
+        src="https://picsum.photos/id/93/600/300"
+          alt="white petaled flower field below cloudy sky, https://unsplash.com/@carolinesada"
         />
       </figure>
       <figure class="grid__item">
         <img
-          src="https://plus.unsplash.com/premium_photo-1675437553489-0ddf979f299a?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          alt="two dogs sitting on top of a building, https://unsplash.com/@p_kuzovkova"
+        src="https://picsum.photos/id/110/600/300"
+          alt="lush grass field photo during golden hou, https://unsplash.com/@kenneththewissen"
         />
       </figure>
       <figure class="grid__item">
         <img
-          src="https://images.unsplash.com/photo-1561037404-61cd46aa615b?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          alt="black and white short coated dog, https://unsplash.com/@victor_vector"
+        src="https://picsum.photos/id/116/600/300"
+          alt="brown house surrounded by pine trees, https://unsplash.com/@antonsulsky"
         />
       </figure>
       <figure class="grid__item">
         <img
-          src="https://images.unsplash.com/photo-1583336663277-620dc1996580?q=80&w=3538&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          alt="brown and white dog wearing pink and black polka dot dress, https://unsplash.com/@karsten116"
+          src="https://picsum.photos/id/190/600/300"
+          alt="landscape photography of pathway surrounded by trees, https://unsplash.com/@vespir"
+        />
+      </figure>
+      <figure class="grid__item">
+        <img
+          src="https://picsum.photos/id/202/600/300"
+          alt="low-light photo of gray pavement, https://unsplash.com/@glencarrie"
+        />
+      </figure>
+      <figure class="grid__item">
+        <img
+          src="https://picsum.photos/id/204/600/300"
+          alt="train railway under white and blue sky, https://unsplash.com/@tiagogerken"
+        />
+      </figure>
+      <figure class="grid__item">
+        <img
+          src="https://picsum.photos/id/190/600/300"
+          alt="landscape photography of pathway surrounded by trees, https://unsplash.com/@vespir"
+        />
+      </figure>
+      <figure class="grid__item">
+        <img
+          src="https://picsum.photos/id/204/600/300"
+          alt="train railway under white and blue sky, https://unsplash.com/@tiagogerken"
+        />
+      </figure>
+    </div>
+
+    <!-- when there're more than 5 photos -->
+    <div class="grid">
+      <figure class="grid__item">
+        <img
+          src="https://picsum.photos/id/66/600/300"
+          alt="green grass land taken at daytime, https://unsplash.com/@nicholasswanson"
+        />
+      </figure>
+      <figure class="grid__item">
+        <img
+        src="https://picsum.photos/id/93/600/300"
+          alt="white petaled flower field below cloudy sky, https://unsplash.com/@carolinesada"
+        />
+      </figure>
+      <figure class="grid__item">
+        <img
+        src="https://picsum.photos/id/110/600/300"
+          alt="lush grass field photo during golden hou, https://unsplash.com/@kenneththewissen"
+        />
+      </figure>
+      <figure class="grid__item">
+        <img
+        src="https://picsum.photos/id/116/600/300"
+          alt="brown house surrounded by pine trees, https://unsplash.com/@antonsulsky"
+        />
+      </figure>
+      <figure class="grid__item">
+        <img
+          src="https://picsum.photos/id/190/600/300"
+          alt="landscape photography of pathway surrounded by trees, https://unsplash.com/@vespir"
+        />
+      </figure>
+      <figure class="grid__item">
+        <img
+          src="https://picsum.photos/id/202/600/300"
+          alt="low-light photo of gray pavement, https://unsplash.com/@glencarrie"
+        />
+      </figure>
+      <figure class="grid__item">
+        <img
+          src="https://picsum.photos/id/204/600/300"
+          alt="train railway under white and blue sky, https://unsplash.com/@tiagogerken"
+        />
+      </figure>
+      <figure class="grid__item">
+        <img
+          src="https://picsum.photos/id/190/600/300"
+          alt="landscape photography of pathway surrounded by trees, https://unsplash.com/@vespir"
+        />
+      </figure>
+      <figure class="grid__item">
+        <img
+          src="https://picsum.photos/id/204/600/300"
+          alt="train railway under white and blue sky, https://unsplash.com/@tiagogerken"
+        />
+      </figure>
+      <figure class="grid__item">
+        <img
+          src="https://picsum.photos/id/190/600/300"
+          alt="landscape photography of pathway surrounded by trees, https://unsplash.com/@vespir"
+        />
+      </figure>
+      <figure class="grid__item">
+        <img
+          src="https://picsum.photos/id/204/600/300"
+          alt="train railway under white and blue sky, https://unsplash.com/@tiagogerken"
+        />
+      </figure>
+      <figure class="grid__item">
+        <img
+          src="https://picsum.photos/id/190/600/300"
+          alt="landscape photography of pathway surrounded by trees, https://unsplash.com/@vespir"
+        />
+      </figure>
+      <figure class="grid__item">
+        <img
+          src="https://picsum.photos/id/204/600/300"
+          alt="train railway under white and blue sky, https://unsplash.com/@tiagogerken"
+        />
+      </figure>
+      <figure class="grid__item">
+        <img
+          src="https://picsum.photos/id/190/600/300"
+          alt="landscape photography of pathway surrounded by trees, https://unsplash.com/@vespir"
+        />
+      </figure>
+    </div>
+
+    <!-- when there're 5 photos -->
+    <div class="grid">
+      <figure class="grid__item">
+        <img
+          src="https://picsum.photos/id/66/600/300"
+          alt="green grass land taken at daytime, https://unsplash.com/@nicholasswanson"
+        />
+      </figure>
+      <figure class="grid__item">
+        <img
+        src="https://picsum.photos/id/93/600/300"
+          alt="white petaled flower field below cloudy sky, https://unsplash.com/@carolinesada"
+        />
+      </figure>
+      <figure class="grid__item">
+        <img
+        src="https://picsum.photos/id/110/600/300"
+          alt="lush grass field photo during golden hou, https://unsplash.com/@kenneththewissen"
+        />
+      </figure>
+      <figure class="grid__item">
+        <img
+        src="https://picsum.photos/id/116/600/300"
+          alt="brown house surrounded by pine trees, https://unsplash.com/@antonsulsky"
+        />
+      </figure>
+      <figure class="grid__item">
+        <img
+          src="https://picsum.photos/id/190/600/300"
+          alt="landscape photography of pathway surrounded by trees, https://unsplash.com/@vespir"
+        />
+      </figure>
+    </div>
+
+    <!-- when there're 4 photos -->
+    <div class="grid">
+      <figure class="grid__item">
+        <img
+          src="https://picsum.photos/id/66/600/300"
+          alt="green grass land taken at daytime, https://unsplash.com/@nicholasswanson"
+        />
+      </figure>
+      <figure class="grid__item">
+        <img
+        src="https://picsum.photos/id/93/600/300"
+          alt="white petaled flower field below cloudy sky, https://unsplash.com/@carolinesada"
+        />
+      </figure>
+      <figure class="grid__item">
+        <img
+        src="https://picsum.photos/id/110/600/300"
+          alt="lush grass field photo during golden hou, https://unsplash.com/@kenneththewissen"
+        />
+      </figure>
+      <figure class="grid__item">
+        <img
+        src="https://picsum.photos/id/116/600/300"
+          alt="brown house surrounded by pine trees, https://unsplash.com/@antonsulsky"
+        />
+      </figure>
+    </div>
+
+    <!-- when there're 3 photos -->
+    <div class="grid">
+      <figure class="grid__item">
+        <img
+          src="https://picsum.photos/id/66/600/300"
+          alt="green grass land taken at daytime, https://unsplash.com/@nicholasswanson"
+        />
+      </figure>
+      <figure class="grid__item">
+        <img
+        src="https://picsum.photos/id/93/600/300"
+          alt="white petaled flower field below cloudy sky, https://unsplash.com/@carolinesada"
+        />
+      </figure>
+      <figure class="grid__item">
+        <img
+        src="https://picsum.photos/id/110/600/300"
+          alt="lush grass field photo during golden hou, https://unsplash.com/@kenneththewissen"
+        />
+      </figure>
+    </div>
+
+    <!-- when there're 2 photos -->
+    <div class="grid">
+      <figure class="grid__item">
+        <img
+          src="https://picsum.photos/id/66/600/300"
+          alt="green grass land taken at daytime, https://unsplash.com/@nicholasswanson"
+        />
+      </figure>
+      <figure class="grid__item">
+        <img
+        src="https://picsum.photos/id/93/600/300"
+          alt="white petaled flower field below cloudy sky, https://unsplash.com/@carolinesada"
+        />
+      </figure>
+    </div>
+
+    <!-- when there's only 1 photo -->
+    <div class="grid">
+      <figure class="grid__item">
+        <img
+          src="https://picsum.photos/id/93/600/300"
+          alt="white petaled flower field below cloudy sky, https://unsplash.com/@carolinesada"
         />
       </figure>
     </div>
