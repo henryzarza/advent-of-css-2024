@@ -16,7 +16,9 @@ Build a photo gallery card, similar to Facebook only with CSS
 
 ### Day 2
 
-TODO
+Create a CSS only toggle
+
+<img width="929" alt="Screenshot 2025-02-25 at 19 19 35" src="https://github.com/user-attachments/assets/6cec99ad-a02d-49c6-8288-8e01c3d499bc" />
 
 ### Day 3
 
