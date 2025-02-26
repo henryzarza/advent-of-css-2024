@@ -26,7 +26,9 @@ TODO
 
 ### Day 4
 
-TODO
+Style a heading with rulers on either side of the heading
+
+<img width="1723" alt="Screenshot 2025-02-26 at 16 53 16" src="https://github.com/user-attachments/assets/9f95f853-3518-483c-bea5-c837f17eb28b" />
   
 ### Day 5
 
