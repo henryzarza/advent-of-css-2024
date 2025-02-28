@@ -22,7 +22,9 @@ Create a CSS only toggle
 
 ### Day 3
 
-TODO
+Build a CSS only tooltip
+
+<img width="900" alt="Screenshot 2025-02-28 at 21 34 56" src="https://github.com/user-attachments/assets/462fc31e-849e-49c6-b74b-b910d96f4bdb" />
 
 ### Day 4
 
