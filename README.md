@@ -34,7 +34,9 @@ Style a heading with rulers on either side of the heading
   
 ### Day 5
 
-TODO
+A footer that is revealed when the user scrolls down only with CSS
+
+<img width="1201" alt="Screenshot 2025-03-03 at 16 43 01" src="https://github.com/user-attachments/assets/57057a9a-ada2-4e8a-a1d3-df10932056b5" />
   
 ### Day 6
 
