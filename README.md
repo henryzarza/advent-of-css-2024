@@ -40,11 +40,15 @@ A footer that is revealed when the user scrolls down only with CSS
   
 ### Day 6
 
-TODO
-  
+Create a Pure CSS Scroll Indicator
+
+<img width="1183" alt="Screenshot 2025-03-10 at 16 06 45" src="https://github.com/user-attachments/assets/19879485-3b07-4d5d-9274-a925bd48c87f" />
+ 
 ### Day 7
 
-TODO
+Create a form label that moves when the user focuses on the input
+
+<img width="1134" alt="Screenshot 2025-03-10 at 16 00 16" src="https://github.com/user-attachments/assets/958459fa-210c-4500-a3c4-0ccd77ae49a0" />
 
 ### Day 8
 
