@@ -1,0 +1,77 @@
+:root {
+  --cod-gray: #191919;
+  --white: #FFF;
+  --blue: #0015FF;
+  --red: #DF0C0C;
+  --green: #18D651;
+  --dark-gray: #CFCECE;
+  --light-gray: #EDEDED;
+  --transition-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  --transition-time: 290ms;
+}
+
+* {
+  box-sizing: border-box;
+  color: var(--cod-gray);
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  min-height: 100vh;
+}
+
+.input-container {
+  max-width: 45rem;
+  position: relative;
+  width: 100%;
+
+  input {
+    background-color: var(--light-gray);
+    border: 0.25rem solid var(--dark-gray);
+    border-radius: 0.625rem;
+    color: var(--cod-gray);
+    font-size: 1.5rem;
+    padding: 2.75rem;
+    padding-bottom: 2rem;
+    transition: border-color var(--transition-time) var(--transition-function);
+    width: 100%;
+  }
+
+  label {
+    color: var(--cod-gray);
+    font-size: 2.75rem;
+    font-weight: 700;
+    left: 3rem;
+    pointer-events: none;
+    position: absolute;
+    top: 0.5rem;
+    transform: scale(1) translateY(1.35rem);
+    transform-origin: left;
+    transition: transform var(--transition-time) var(--transition-function);
+  }
+
+  &:has(input:is(:focus, :not(:placeholder-shown))) label {
+    transform: scale(0.4) translateY(0);
+  }
+
+  &:has(input:focus) input {
+    border-color: var(--blue);
+  }
+
+  &:has(input:invalid) input {
+    border-color: var(--red);
+  }
+
+  &:has(input:is(:not(:placeholder-shown):valid)) input {
+    border-color: var(--green);
+  }
+}
