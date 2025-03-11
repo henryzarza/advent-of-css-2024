@@ -52,7 +52,9 @@ Create a form label that moves when the user focuses on the input
 
 ### Day 8
 
-TODO
+Show the header navigation, after the user has started scrolling (has: trick didn't work so I had to use JS)
+
+<img width="1028" alt="Screenshot 2025-03-11 at 19 16 35" src="https://github.com/user-attachments/assets/c28c35d0-65a0-4783-b11b-f5b222750e08" />
   
 ### Day 9
 
