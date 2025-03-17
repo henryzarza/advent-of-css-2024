@@ -58,7 +58,9 @@ Show the header navigation, after the user has started scrolling (has: trick did
   
 ### Day 9
 
-TODO
+Create a button with a gradient border
+
+<img width="926" alt="Screenshot 2025-03-17 at 16 34 01" src="https://github.com/user-attachments/assets/01787d0d-e055-46ac-922d-b7136b731487" />
 
 ### Day 10
 
