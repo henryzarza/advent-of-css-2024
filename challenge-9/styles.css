@@ -1,0 +1,65 @@
+:root {
+  --yellow: #F4BB44;
+  --pink: #E0367C;
+  --purple: #6762D2;
+  --blue: #6ED3FA;
+  --cod-gray: #1A1A1A;
+  --white: #FFFFFF;
+}
+
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  background-color: var(--cod-gray);
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.button {
+  align-items: center;
+  animation: 6s rotate linear infinite;
+  background: linear-gradient(var(--cod-gray), var(--cod-gray)) padding-box, linear-gradient(
+        var(--angle),
+        var(--yellow),
+        var(--pink),
+        var(--purple),
+        var(--blue)
+      ) border-box;
+  border: 0.5rem solid #0000;
+  border-radius: 6.25rem;
+  color: var(--white);
+  cursor: pointer;
+  display: flex;
+  font-size: 1.75rem;
+  font-weight: 700;
+  justify-content: center;
+  min-height: 6.75rem;
+  padding: 1rem;
+  transition: border-radius 290ms ease-in-out;
+  width: 19.625rem;
+
+  &:hover {
+    border-radius: 0;
+    color: var(--pink);
+  }
+}
+
+@keyframes rotate {
+  to {
+    --angle: 360deg;
+  }
+}
