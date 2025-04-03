@@ -64,7 +64,9 @@ Create a button with a gradient border
 
 ### Day 10
 
-TODO
+Build a CSS-only slider with Scroll Snapping
+
+<img width="1355" alt="Screenshot 2025-04-03 at 19 56 28" src="https://github.com/user-attachments/assets/c6ea50c9-99d0-48d9-ad62-6840cd233f3a" />
   
 ### Day 11
 
