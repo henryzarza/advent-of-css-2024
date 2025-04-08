@@ -1,0 +1,83 @@
+:root {
+  --cod-gray: #1A1A1A;
+  --white: #FFFFFF;
+  --red: #FF0000;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--cod-gray);
+  color: var(--white);
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.section {
+  display: flex;
+  gap: 4.5rem;
+  max-height: calc(100vh - 4rem);
+  max-width: 75rem;
+  margin: 0 auto;
+  overflow: auto;
+  padding-right: 1rem;
+  width: 100%;
+}
+
+.title {
+  color: var(--red);
+  font-size: 7.5rem;
+  font-weight: 900;
+  height: 29rem;
+  line-height: 1.05;
+  text-transform: uppercase;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.125rem var(--red);
+  position: sticky;
+  text-align: right;
+  top: 0;
+  transform: rotate(180deg);
+  writing-mode: vertical-rl;
+}
+
+.content {
+  font-size: 1rem;
+  line-height: 2;
+}
+
+@supports not (-webkit-text-stroke: 0.125rem var(--red)) {
+  .title {
+    text-shadow:
+       0.125rem  0.125rem 0 var(--red),
+      -1px -1px 0 var(--red),
+       1px -1px 0 var(--red),
+      -1px  1px 0 var(--red),
+       1px  1px 0 var(--red);
+  }
+}
+
+@media screen and (max-width: 48rem) {
+  .section {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .title {
+    font-size: 5rem;
+    height: auto;
+    position: initial;
+    text-align: center;
+    transform: rotate(0);
+    writing-mode: unset;
+  }
+
+  .content {
+    font-size: 0.875rem;
+  }
+}
