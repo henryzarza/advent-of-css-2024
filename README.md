@@ -70,7 +70,9 @@ Build a CSS-only slider with Scroll Snapping
   
 ### Day 11
 
-TODO
+Style the heading text, vertically, and with an outline.
+
+<img width="1263" alt="Screenshot 2025-04-08 at 20 55 43" src="https://github.com/user-attachments/assets/5e934921-7af2-45c0-b7fa-6540126fdc46" />
   
 ### Day 12
 
