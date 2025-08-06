@@ -88,8 +88,8 @@ Create a three-state toggle
 
 Style a corner ribbon
 
-TODO
-  
+<img width="462" height="471" alt="Screenshot 2025-08-06 at 16 29 42" src="https://github.com/user-attachments/assets/0025abfe-630a-4df3-b1af-981900eda39c" />
+
 ### Day 15
 
 TODO
