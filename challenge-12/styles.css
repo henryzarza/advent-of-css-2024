@@ -51,13 +51,13 @@ section {
 
   &::before {
     content: "";
-      background: url(./images/open-quotes.svg) no-repeat center / contain;
-      height: 2rem;
-      width: 2rem;
-      position: absolute;
-      left: -1.45rem;
-      top: -1rem;
-      z-index: -1;
+    background: url(./images/open-quotes.svg) no-repeat center / contain;
+    height: 2rem;
+    width: 2rem;
+    position: absolute;
+    left: -1.45rem;
+    top: -1rem;
+    z-index: -1;
   }
 }
 
@@ -67,12 +67,11 @@ section {
 }
 
 /* Testimonials variants */
-#testimonials-1,
-#testimonials-2 {
+body {
   display: flex;
   flex-direction: column;
   gap: 3rem;
-  max-width: 50rem;
+  max-width: 31rem;
   padding: 1rem;
   width: 100%;
 }
@@ -116,4 +115,37 @@ section {
 #testimonials-2 .avatar {
   grid-row: span 2;
   justify-self: center;
+}
+
+/* Testimonials 3 */
+#testimonials-3 main {
+  display: flex;
+  flex-direction: column;
+  gap: 4.5rem;
+}
+
+#testimonials-3 section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem 3rem;
+}
+
+#testimonials-3 .testimonial {
+  text-align: center;
+  &::before {
+    left: 0;
+  }
+
+  &::after {
+    content: "";
+    background: url(./images/close-quotes.svg) no-repeat center / contain;
+    height: 2rem;
+    width: 2rem;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
 }
