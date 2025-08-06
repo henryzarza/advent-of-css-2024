@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  color: #1A1A1A;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #F8F0E7;
+}
+
+.main {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+  width: 100%;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1.05;
+  margin-bottom: 2rem;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.05;
+}
+
+.fake-img {
+  background-color: #59585A;
+  border-radius: 0.25rem;
+  height: 13rem;
+  width: 100%;
+}
+
+.ribbon {
+  background-color: #00FF2F;
+  padding: 1.125rem;
+  position: fixed;
+  right: 0;
+  top: 0;
+  transform: rotate(90deg);
+  width: 27.5rem;
+  /* Text */
+  font-size: 1.125rem;
+  font-weight: bold;
+  line-height: 1.05;
+  text-align: center;
+  text-transform: uppercase;
+}

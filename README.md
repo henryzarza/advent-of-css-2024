@@ -86,6 +86,8 @@ Create a three-state toggle
 
 ### Day 14
 
+Style a corner ribbon
+
 TODO
   
 ### Day 15
