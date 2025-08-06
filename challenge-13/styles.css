@@ -1,0 +1,87 @@
+:root {
+  --cod-gray: #1A1A1A;
+  --purple: #3F16D3;
+  --light-peach: #FFEFE2;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  background-color: var(--cod-gray);
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.section {
+  background-color: var(--light-peach);
+  display: flex;
+  gap: 1.625rem;
+  flex-direction: column;
+  min-height: 10.625rem;
+  max-width: 14.875rem;
+  margin: 0 auto;
+  padding: 1.875rem 1.375rem;
+  position: relative;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+}
+
+.radio {
+  display: none;
+
+  & + label {
+    background-color: var(--light-peach);
+    border: 2px solid var(--purple);
+    color: var(--purple);
+    cursor: pointer;
+    flex: 1;
+    padding: 12px 20px;
+    transition: background-color 290ms ease-in-out;
+
+    &:nth-of-type(2n) {
+      border-left: none;
+      border-right: none;
+    }
+  }
+
+  &:is(:checked) + label {
+    background-color: var(--purple);
+    color: var(--light-peach);
+    
+    & + .radio-text {
+      opacity: 1;
+    }
+  }
+  
+  & + label > svg {
+    height: 24px;
+    width: 24px;
+  }
+}
+
+.radio-text {
+  bottom: 2rem;
+  color: var(--purple);
+  font-size: 1.5rem;
+  font-weight: bold;
+  left: 0;
+  line-height: 1.05;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  right: 0;
+  transition: opacity 290ms ease-in-out;
+  transition-delay: 50ms;
+}

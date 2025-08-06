@@ -80,6 +80,8 @@ TODO
   
 ### Day 13
 
+Create a three-state toggle
+
 TODO
 
 ### Day 14
