@@ -82,7 +82,7 @@ TODO
 
 Create a three-state toggle
 
-TODO
+<img width="662" height="352" alt="Screenshot 2025-08-06 at 14 40 14" src="https://github.com/user-attachments/assets/3d201e90-2990-423f-b08f-0d2982daa738" />
 
 ### Day 14
 
