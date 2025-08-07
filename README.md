@@ -76,7 +76,9 @@ Style the heading text, vertically, and with an outline.
   
 ### Day 12
 
-TODO
+Take the same HTML and modify the layout, only using CSS.
+
+<img width="1347" height="635" alt="image" src="https://github.com/user-attachments/assets/c9e1c75a-3f8b-4a4c-8c93-a9898edbd71a" />
   
 ### Day 13
 
