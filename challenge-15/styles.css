@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  color: #1A1A1A;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 70rem;
+  margin: 0 auto;
+  min-height: 100vh;
+  padding: 1rem;
+  width: 100%;
+}
+
+.title {
+  font-size: 7.5rem;
+  font-weight: bold;
+  line-height: 0.95;
+
+  span {
+    background: linear-gradient(#00FBFF);
+    background-size: 100% 40%;
+    background-position-y: 100%;
+    background-repeat: no-repeat;
+    transition: background-size 330ms ease-in-out;
+
+    &:hover {
+      background-size: 100% 80%;
+    }
+  }
+}

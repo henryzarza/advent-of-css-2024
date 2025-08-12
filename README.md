@@ -94,7 +94,7 @@ Style a corner ribbon
 
 ### Day 15
 
-TODO
+Create a text highlight effect
 
 ### Day 16
 
