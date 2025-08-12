@@ -96,6 +96,8 @@ Style a corner ribbon
 
 Create a text highlight effect
 
+<img width="1546" height="831" alt="Screenshot 2025-08-12 at 14 14 11" src="https://github.com/user-attachments/assets/ca2d250f-83e4-46ec-a874-9a8bc64a50c0" />
+
 ### Day 16
 
 TODO
