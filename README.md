@@ -101,10 +101,12 @@ Create a text highlight effect
 ### Day 16
 
 Style a custom scrollbar
-  
+
+<img width="1126" height="957" alt="Screenshot 2025-08-12 at 15 56 25" src="https://github.com/user-attachments/assets/2080eb6f-a468-4a3b-8803-9f8478dfc98c" />
+
 ### Day 17
 
-TODO
+Style the newsletter sign up form
   
 ### Day 18
 
