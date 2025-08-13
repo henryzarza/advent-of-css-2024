@@ -100,7 +100,7 @@ Create a text highlight effect
 
 ### Day 16
 
-TODO
+Style a custom scrollbar
   
 ### Day 17
 
