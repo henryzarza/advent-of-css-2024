@@ -108,13 +108,13 @@ Style a custom scrollbar
 
 Style the newsletter sign up form
 
-TODO
+<img width="1282" height="933" alt="Screenshot 2025-08-13 at 09 27 36" src="https://github.com/user-attachments/assets/1b4c1ac0-a1cb-4bec-ae8d-acae8e1e5028" />
   
 ### Day 18
 
 Create a skeleton loader
 
-TODO
+<img width="1202" height="902" alt="Screenshot 2025-08-14 at 10 59 38" src="https://github.com/user-attachments/assets/dbeec382-4cdf-4fd5-8f33-7a7fc57feee7" />
 
 ### Day 19
 
