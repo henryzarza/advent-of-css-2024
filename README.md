@@ -107,8 +107,12 @@ Style a custom scrollbar
 ### Day 17
 
 Style the newsletter sign up form
+
+TODO
   
 ### Day 18
+
+Create a skeleton loader
 
 TODO
 
