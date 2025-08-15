@@ -120,9 +120,11 @@ Create a skeleton loader
 
 News Layout with Container Queries
 
-TODO
+<img width="1633" height="939" alt="Screenshot 2025-08-15 at 10 08 19" src="https://github.com/user-attachments/assets/e7b21b70-d339-4094-a5b1-0b52b3fe4b51" />
   
 ### Day 20
+
+Frosted Glass Effect
 
 TODO
 
