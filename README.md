@@ -118,6 +118,8 @@ Create a skeleton loader
 
 ### Day 19
 
+News Layout with Container Queries
+
 TODO
   
 ### Day 20

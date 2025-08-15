@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 3fr 2fr 1fr;
+  gap: 2.625rem;
+  padding: 2.625rem;
+}
+
+section {
+  container-type: inline-size;
+  display: flex;
+  flex-direction: column;
+
+  &:first-of-type {
+    align-content: start;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+
+  &:last-of-type {
+    gap: 2.875rem;
+  }
+
+  @container (width >= 32.25rem) {
+    & > article:first-of-type {
+      grid-column: span 3;
+      flex-direction: column-reverse;
+      margin-bottom: 3.75rem;
+
+      h1 {
+        font-size: 2.875rem;
+      }
+    }
+
+    & h1 {
+      font-size: 1rem;
+    }
+  }
+
+  @container (width <= 20rem) {
+    & h1 {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+}
+
+@media screen and (max-width: 78rem) {
+  section:first-of-type {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 60rem) {
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 40rem) {
+  main {
+    grid-template-columns: 1fr;
+  }
+}
