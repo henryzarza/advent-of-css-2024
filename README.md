@@ -126,9 +126,11 @@ News Layout with Container Queries
 
 Frosted Glass Effect
 
-TODO
+<img width="1156" height="668" alt="Screenshot 2025-08-15 at 15 25 39" src="https://github.com/user-attachments/assets/4a80d5f4-0171-4956-afb2-24c06abdf560" />
 
 ### Day 21
+
+Theme Switcher
 
 TODO
   
