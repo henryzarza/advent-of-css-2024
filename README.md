@@ -130,11 +130,13 @@ Frosted Glass Effect
 
 ### Day 21
 
-Theme Switcher
+Theme Switcher with background movement
 
-TODO
+<img width="1672" height="952" alt="Screenshot 2025-08-18 at 16 01 44" src="https://github.com/user-attachments/assets/f3d3d3cb-2277-4b21-a35f-33d50336a82b" />
   
 ### Day 22
+
+Equal Column Layout
 
 TODO
 
