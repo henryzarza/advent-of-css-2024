@@ -138,9 +138,11 @@ Theme Switcher with background movement
 
 Equal Column Layout
 
-TODO
+<img width="1370" height="934" alt="Screenshot 2025-08-19 at 16 08 21" src="https://github.com/user-attachments/assets/fb0ea4d1-d785-4890-a713-224117e2d74e" />
 
 ### Day 23
+
+Animated Hamburger Menu
 
 TODO
 
