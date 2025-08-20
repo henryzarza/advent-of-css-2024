@@ -144,9 +144,13 @@ Equal Column Layout
 
 Animated Hamburger Menu
 
-TODO
+<img width="250" height="200" alt="Screenshot 2025-08-20 at 09 43 42" src="https://github.com/user-attachments/assets/b34e0e53-8149-43b4-b2b5-bcfda057c326" />
+
+<img width="250" height="200" alt="Screenshot 2025-08-20 at 09 43 31" src="https://github.com/user-attachments/assets/8dd8c69e-c903-45d3-beaf-b48ea94a454a" />
 
 ### Day 24
+
+Stacked Cards
 
 TODO
 
