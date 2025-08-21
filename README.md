@@ -152,6 +152,8 @@ Animated Hamburger Menu
 
 Stacked Cards
 
-TODO
+<img width="937" height="803" alt="Screenshot 2025-08-21 at 14 43 12" src="https://github.com/user-attachments/assets/44dba209-763e-4ec8-9398-43bd239a837b" />
+
+---
 
 Made with ❤️ by Henry Zarza, 2025
